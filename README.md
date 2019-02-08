@@ -5,8 +5,14 @@ The GitHub Action for [Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/i
 ## Usage
 
 ```
-action "package" {
-  uses = "LucaFeger/action-maven-cli@master"
-  args = "clean install"
+action "Deploy to PWS" {
+  uses = "louisthomas/cloud-foundry-cli-action@master"
+  secrets = ["PASSWORD"]
+  env = {
+    CF_API_ENDPOINT = "<Cloud Foundry API endpoint>"
+    ORG = "<Organisation>"
+    SPACE = "<Space>"
+    USERNAME = "<Username>" 
+  }
 }
 ```
