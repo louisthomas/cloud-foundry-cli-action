@@ -12,7 +12,8 @@ action "Deploy to PWS" {
     CF_API_ENDPOINT = "<Cloud Foundry API endpoint>"
     ORG = "<Organisation>"
     SPACE = "<Space>"
-    USERNAME = "<Username>" 
+    USERNAME = "<Username>"
+    APP_NAME = "<Application name>"
   }
 }
 ```
