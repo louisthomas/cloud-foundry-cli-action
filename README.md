@@ -14,6 +14,7 @@ action "Deploy to PWS" {
     SPACE = "<Space>"
     USERNAME = "<Username>"
     APP_NAME = "<Application name>"
+    ARTIFACT_PATH = "<Artifact file path>" 
   }
 }
 ```
