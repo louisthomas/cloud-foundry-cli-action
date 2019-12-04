@@ -2,7 +2,7 @@ FROM alpine:3.10.3
 
 LABEL "name"="Cloud Foundry CLI Action"
 LABEL "maintainer"="ltlamontagne@gmail.com>"
-LABEL "version"="1.0.1"
+LABEL "version"="1.0.2"
 
 LABEL "com.github.actions.name"="GitHub Action for Cloud Foundry"
 LABEL "com.github.actions.description"="Wraps the Cloud foundry CLI to enable CF commands."
