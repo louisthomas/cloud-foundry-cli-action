@@ -1,4 +1,4 @@
-FROM alpine:3.10.3
+FROM alpine:3.11.2
 
 LABEL "name"="Cloud Foundry CLI Action"
 LABEL "maintainer"="ltlamontagne@gmail.com>"
